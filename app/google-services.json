@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "220812043829",
+    "firebase_url": "https://sumithproject.firebaseio.com",
+    "project_id": "sumithproject",
+    "storage_bucket": "sumithproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220812043829:android:e37e2b2d9c9bfd2a",
+        "android_client_info": {
+          "package_name": "com.sumith.car.sumith_reg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220812043829-19qq5a4lcem2stu13fnr7qno7bad244r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG7hWK6XUSs1C8_coWhjL_DYWgYou3dW8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

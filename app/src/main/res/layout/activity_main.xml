@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121"
+    tools:context="com.sumith.car.sumith_reg.MainActivity">
+
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:scaleType="center"
+        android:text="User Sign Up"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:id="@+id/img"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/img">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_margin="15dp"
+            android:id="@+id/email_field"
+            android:hint="Enter your Email..."
+            android:inputType="textEmailAddress"
+            android:background="@drawable/button2"
+            android:layout_height="45dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_margin="15dp"
+            android:id="@+id/password_field"
+            android:background="@drawable/button2"
+            android:hint="Enter your Password..."
+            android:inputType="textPassword"
+            android:layout_height="45dp" />
+        <Button
+            android:layout_width="250dp"
+            android:background="@drawable/button"
+            android:layout_height="50dp"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/button_reg"
+            android:textAlignment="center"
+            android:text="@string/regi"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/help1"
+            android:textColor="#fff"
+            android:onClick="onclick1"
+            android:id="@+id/login_reg"/>
+    </LinearLayout>
+
+</RelativeLayout>

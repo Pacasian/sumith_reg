@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121"
+    tools:context="com.sumith.car.sumith_reg.Registation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="100dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:text="User Registration"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/email_field2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/button2"
+            android:hint="Enter your Email..."
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/password_field2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/button2"
+            android:hint="Enter Password..."
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/button_log"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:text="@string/login"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/log_log"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="if you don't have an account...Click Here !"
+            android:textColor="#fff" />
+    </LinearLayout>
+</RelativeLayout>
